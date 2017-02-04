@@ -1,0 +1,101 @@
+body{
+	margin: 2em auto 0 auto;
+	padding: 0;
+	width: 80%;
+	height: 100%;
+
+	font-family: verdana;
+	color:#2d3c49;
+
+}
+
+header,
+section,
+aside,
+figure,
+figcaption{
+	display: block;
+}
+
+.container{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+/*
+ *
+ * Header
+ * 
+ */
+
+header{
+	min-height: 56px;
+	border-bottom: 3px solid #02b3e4;
+	width: 100%;
+}
+
+h1,h2{
+	float: right;
+	clear: both;
+	margin: 0;
+}
+
+h1{
+	font-size: 28px;
+}
+h2{
+	font-size: 14px;
+}
+
+/*
+ *
+ * Main
+ * 
+ */
+section{
+	width: 100%;
+}
+
+section img{
+	margin-top:10px;
+	overflow: hidden;
+	width: 100%;
+	float: right;
+}
+
+section h1{
+	float:none;
+	font-size: 20px;
+	color: gray;
+	padding-top: 1em; 
+}
+
+section article{
+	display: flex;
+	justify-content: space-between;
+}
+
+section article figure{
+	margin: 0;
+	/* border: 1px red solid; */
+	width: 30%;
+}
+
+section article figure img{
+	margin: 0px;
+}
+
+section article figure h2,
+section article figure p{
+	float: none;
+	text-align: center;
+}
+section article figure h2{
+	font-size: 18px;
+}
+section article figure p{
+	font-size: 12px;
+	width: 100%;
+	margin: 0;
+}
