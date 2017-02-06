@@ -17,7 +17,7 @@ figcaption{
 	display: block;
 }
 
-.container{
+ .container{
 	display: flex;
 	width: 100%;
 	flex-wrap: wrap;
@@ -44,10 +44,15 @@ h1,h2{
 h1{
 	font-size: 28px;
 }
+
 h2{
 	font-size: 14px;
 }
 
+header span{
+	font-size: 40px;
+	color: #02b3e4;
+}
 /*
  *
  * Main
@@ -59,8 +64,9 @@ section{
 
 section img{
 	margin-top:10px;
-	overflow: hidden;
-	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
 	float: right;
 }
 
@@ -91,9 +97,11 @@ section article figure p{
 	float: none;
 	text-align: center;
 }
+
 section article figure h2{
 	font-size: 18px;
 }
+
 section article figure p{
 	font-size: 12px;
 	width: 100%;
